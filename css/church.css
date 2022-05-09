@@ -7,8 +7,13 @@ body {
   font-family: serif;
 }
 
+.text-light {
+  text-align: center;
+}
+
 .container {
   text-align: center;
+  width: 1250px;
 }
 
 h2 {
@@ -96,10 +101,12 @@ p {
   font-style: italic;
   padding: 5px;
   border: 8px double rgb(128, 128, 128);
+  text-align: center;
 }
 
 .owners {
   color: rgb(255, 255, 255);
+  text-align: center;
 }
 
 .name {
