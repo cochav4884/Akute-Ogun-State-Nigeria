@@ -91,6 +91,7 @@ body {
     display: inline-block;
     margin-bottom: 200px;
     margin-left: 5px;
+    padding: 10px;
 }
 
 .container-fluid {
