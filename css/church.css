@@ -2,7 +2,7 @@ body {
   background-color: rgb(37, 15, 37);
 }
 
-.text-center {
+.h2 {
   font-size: 56px;
   font-family: serif;
 }
@@ -11,9 +11,8 @@ body {
   text-align: center;
 }
 
-.container {
+.container-fluid {
   text-align: center;
-  width: 1250px;
 }
 
 h2 {
@@ -29,6 +28,10 @@ p {
 .text-secondary {
   font-size: 18px;
   font-family: cursive;
+}
+
+.move {
+  margin-left: 300px;
 }
 
 /* Fixed sidenav, full height */
@@ -129,21 +132,9 @@ aside {
   float: left;
 }
 
-.churchphoto {
-  box-shadow: 4px 8px 10px rgb(12, 12, 12);
-}
-
 article {
   width: 1250px;
   display: inline-block;
   text-align: center;
   margin-bottom: 10px;
-}
-
-.pastorphoto {
-  box-shadow: 4px 8px 10px rgb(12, 12, 12);
-}
-
-.interviewphoto {
-  box-shadow: 4px 8px 10px rgb(12, 12, 12);
 }
