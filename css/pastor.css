@@ -42,12 +42,15 @@ body {
     }
     
     /* Main content */
-    .main {
-      margin-left: 200px; /* Same as the width of the sidenav */
-      font-size: 20px; /* Increased text to enable scrolling */
+    .main_container {
+      width: calc(100% - 200px);
+      margin-top: 70px;
+      margin-left: 200px;
       padding: 0px 10px;
+      transition: all 0.3s ease;
+      font-size: 20px;
     }
-    
+      
     /* Add an active class to the active dropdown button */
     .active {
       background-color: white;
