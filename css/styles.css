@@ -125,20 +125,20 @@ footer .footer::first-letter {
   text-align: center;
 }
 
-.peace {
+/* .peace {
   box-shadow: 4px 8px 10px rgb(12, 12, 12);
-}
+} */
 
-.population {
+/* .population {
   box-shadow: 4px 8px 10px rgb(12, 12, 12);
   margin-left: 130px;
-}
+} */
 
-.rainforest {
+/* .rainforest {
   box-shadow: 4px 8px 10px rgb(12, 12, 12);
   width: 1080px;
   height: 500px;
-}
+} */
 
 .button {
   background-color: transparent;
