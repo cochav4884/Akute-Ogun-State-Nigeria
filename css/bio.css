@@ -2,14 +2,25 @@ body {
   background-color: rgb(37, 15, 37);
 }
 
-.text-center {
+.header {
   font-size: 56px;
   font-family: serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
 }
 
 p {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255, 0.725);
 }
+
+.text-secondary {
+  font-family: cursive;
+}
+
+.move {
+  margin-left: 300px;
+}
+
 
 /* Navbar */
 /* Fixed sidenav, full height */
@@ -83,10 +94,12 @@ p {
   font-style: italic;
   padding: 5px;
   border: 8px double rgb(128, 128, 128);
+  text-align: center;
 }
 
 .owners {
   color: rgb(255, 255, 255);
+  text-align: center;
 }
 
 .name {
@@ -101,6 +114,16 @@ p {
 article {
   float: left;
 }
+
+section {
+  clear: left;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  font-size: 24px;
+  font-family: cursive;
+  padding-top: 100px;
+}
+
 
 .born::first-letter {
   font-size: 200%;

@@ -2,11 +2,6 @@ body {
   background-color: rgb(37, 15, 37);
 }
 
-/* .text-center {
-  font-size: 56px;
-  font-family: serif;
-} */
-
 .header {
   font-size: 56px;
   font-family: serif;
@@ -32,7 +27,6 @@ h2 {
 
 h3 {
   font-size: 26px;
-
 }
 
 p {
@@ -113,7 +107,7 @@ p {
   padding-right: 8px;
 }
 
-footer .footer::first-letter {
+.footer::first-letter {
   /* font-size: 200%; */
   color: rgb(128, 128, 128);
   font-style: italic;
@@ -196,6 +190,10 @@ footer .footer::first-letter {
 
 .born::first-line {
   line-height: 2.0;
+}
+
+article {
+  float: left;
 }
 
 section {
@@ -305,3 +303,4 @@ section {
 .para {
   text-align: left;
 }
+

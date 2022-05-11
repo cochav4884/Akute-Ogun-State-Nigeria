@@ -2,9 +2,11 @@ body {
     background-color: rgb(37, 15, 37);
   }
   
-  .text-center {
-    font-size:56px;
+  .header {
+    font-size: 56px;
     font-family: serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
   }
   
   /* Fixed sidenav, full height */
