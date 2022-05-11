@@ -7,6 +7,10 @@ body {
   font-family: serif;
 }
 
+p {
+  color: rgb(255, 255, 255);
+}
+
 /* Navbar */
 /* Fixed sidenav, full height */
 .sidenav {
@@ -164,4 +168,26 @@ footer .footer::first-letter {
 .button1:hover {
   background-color: rgb(128, 128, 128);
   color: white;
+}
+
+.born::first-letter {
+  font-size: 200%;
+  color: rgb(128, 128, 128);
+  font-style: italic;
+  padding: 5px;
+  border: 8px double rgb(128, 128, 128);
+  margin-right: 5px;
+}
+
+.born::first-line {
+  line-height: 2.0;
+}
+
+section {
+  clear: left;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  font-size: 24px;
+  font-family: cursive;
+  padding-top: 100px;
 }
