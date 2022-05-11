@@ -28,6 +28,10 @@ h2 {
   font-family: serif;
 }
 
+.text-light {
+  text-align: center;
+}
+
 /* Fixed sidenav, full height */
 .sidenav {
   height: 100%;
@@ -98,15 +102,18 @@ h2 {
   font-style: italic;
   padding: 5px;
   border: 8px double rgb(128, 128, 128);
+  text-align: center;
 }
 
 .owners {
   color: rgb(255, 255, 255);
+  text-align: center;
 }
 
 .name {
   color: rgb(128, 128, 128);
   font-style: italic;
+  text-align: center;
 }
 
 .fimg {
@@ -209,4 +216,20 @@ h2 {
 .button1:hover {
   background-color: rgb(128, 128, 128);
   color: white;
+}
+
+.card {
+  color: rgb(12, 12, 12);
+}
+
+.card-body {
+  color: rgb(12, 12, 12);
+}
+
+.card-title {
+  color: rgb(12, 12, 12);
+}
+
+.card-text {
+  color: rgb(12, 12, 12);
 }
