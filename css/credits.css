@@ -81,28 +81,6 @@ body {
     height: 300px;
 }
 
-/* .text-back {
-    background-color: rgb(12, 12, 12);
-    width: 100px;
-    height: 50px;
-    -webkit-filter: blur(5px);
-    Safari 6.0 - 9.0
-    filter: blur(5px);
-    margin-top: -640px;
-    margin-left: 620px;
-} */
-
-/* .text-back2 {
-    background-color: rgb(61, 61, 61);
-    width: 100px;
-    height: 50px;
-    -webkit-filter: blur(5px);
-    Safari 6.0 - 9.0
-    filter: blur(5px);
-    margin-top: -190px;
-    margin-left: 712px;
-}
- */
 .footer::first-letter {
     font-size: 200%;
     color: rgb(128, 128, 128);
