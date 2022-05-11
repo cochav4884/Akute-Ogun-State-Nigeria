@@ -73,7 +73,7 @@ body {
   padding-right: 8px;
 }
 
-footer::first-letter {
+.footer::first-letter {
   font-size: 200%;
   color: rgb(128, 128, 128);
   font-style: italic;
@@ -93,3 +93,4 @@ footer::first-letter {
 .fimg {
   border: 8px double rgb(128, 128, 128);
 }
+

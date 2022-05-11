@@ -233,3 +233,29 @@ h2 {
 .card-text {
   color: rgb(12, 12, 12);
 }
+
+.born::first-letter {
+  font-size: 200%;
+  color: rgb(128, 128, 128);
+  font-style: italic;
+  padding: 5px;
+  border: 8px double rgb(128, 128, 128);
+  margin-right: 5px;
+}
+
+.born::first-line {
+  line-height: 2.0;
+}
+
+article {
+  float: left;
+}
+
+section {
+  clear: left;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  font-size: 24px;
+  font-family: cursive;
+  padding-top: 100px;
+}
