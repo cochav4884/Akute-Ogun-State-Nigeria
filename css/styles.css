@@ -114,7 +114,7 @@ p {
 }
 
 footer .footer::first-letter {
-  font-size: 200%;
+  /* font-size: 200%; */
   color: rgb(128, 128, 128);
   font-style: italic;
   padding: 5px;
