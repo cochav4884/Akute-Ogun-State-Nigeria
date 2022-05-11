@@ -240,3 +240,68 @@ section {
     margin-left: 712px;
 }
  */
+
+ .box {
+  display: inline-block;
+  margin-bottom: 200px;
+  padding: 10px;
+}
+
+.container-fluid {
+  display: inline-block;
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 340px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 340px;
+  height: 200px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateX(180deg);
+}
+
+.flip-box-front,
+.flip-box-back {
+  position: absolute;
+  width: 340px;
+  height: 200px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateX(180deg);
+}
+
+.photo {
+  box-shadow: 4px 8px 10px rgba(2, 0, 36, 1);
+  margin-bottom: 10px;
+  width: 340px;
+  height: 200px;
+}
+
+.space {
+  margin-top: 10px;
+}
+
+.para {
+  text-align: left;
+}
