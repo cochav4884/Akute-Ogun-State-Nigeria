@@ -43,14 +43,14 @@ body {
 }
 
 /* Main content */
-  .main_container {
+.main_container {
     width: calc(100% - 200px);
     margin-top: 70px;
     margin-left: 200px;
     padding: 0px 10px;
     transition: all 0.3s ease;
     font-size: 20px;
-  }
+}
 
 /* Add an active class to the active dropdown button */
 .active {

@@ -239,7 +239,7 @@ section {
 }
  */
 
- .box {
+.box {
   display: inline-block;
   margin-bottom: 200px;
   padding: 10px;
@@ -303,4 +303,3 @@ section {
 .para {
   text-align: left;
 }
-
