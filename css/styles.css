@@ -7,8 +7,35 @@ body {
   font-family: serif;
 }
 
+.h2 {
+  font-size: 56px;
+  font-family: serif;
+}
+
+.text-light {
+  text-align: left;
+}
+
+.container-fluid {
+  text-align: center;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
 p {
   color: rgb(255, 255, 255);
+}
+
+.text-secondary {
+  font-size: 30px;
+  font-family: cursive;
+}
+
+.move {
+  margin-left: 300px;
 }
 
 /* Navbar */
@@ -48,12 +75,6 @@ p {
 }
 
 /* Main content */
-/* .main { */
-/* margin-left: 200px; Same as the width of the sidenav */
-/* font-size: 20px; Increased text to enable scrolling */
-/* padding: 0px 10px;
-  } */
-
 .main_container {
   width: calc(100% - 200px);
   margin-top: 70px;
@@ -81,7 +102,6 @@ p {
   float: right;
   padding-right: 8px;
 }
-
 
 footer .footer::first-letter {
   font-size: 200%;
@@ -128,21 +148,6 @@ footer .footer::first-letter {
   color: rgb(255, 255, 255);
   text-align: center;
 }
-
-/* .peace {
-  box-shadow: 4px 8px 10px rgb(12, 12, 12);
-} */
-
-/* .population {
-  box-shadow: 4px 8px 10px rgb(12, 12, 12);
-  margin-left: 130px;
-} */
-
-/* .rainforest {
-  box-shadow: 4px 8px 10px rgb(12, 12, 12);
-  width: 1080px;
-  height: 500px;
-} */
 
 .button {
   background-color: transparent;
