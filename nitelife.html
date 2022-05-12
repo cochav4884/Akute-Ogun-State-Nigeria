@@ -75,54 +75,52 @@
 
     <div class="container">
       <hr>
-      <div>
-        <img src="img/gas station1.jpg" alt="" width="350px" height="550px">
-        <img src="img/gas station2.jpg" alt="" width="350px" height="550px">
-        <img src="img/nitelife1.jpg" alt="" width="350px" height="550px">
-      </div>
+      <section class="section-nitelife">
+        <img src="img/gas station1.jpg" class="nitelife-pics" alt="" width="350px" height="550px">
+        <img src="img/gas station2.jpg" class="nitelife-pics" alt="" width="350px" height="550px">
+        <img src="img/nitelife1.jpg" class="nitelife-pics" alt="" width="350px" height="550px">
+      </section>
+      <br>
+      <section class="section-nitelife">
+        <img src="img/IMG-20220504-WA0004_2.jpg" class="nitelife-pics" alt="" width="350px" height="550px">
+        <img src="img/clothing store1.jpg" class="nitelife-pics" alt="" width="350px" height="550px">
+        <img src="img/grocery store2.jpg" class="nitelife-pics" alt="" width="350px" height="550px">
+      </section>
+      <br>
+      <section class="section-nitelife">
+        <img src="img/nitelife2.jpg" class="nitelife-pics" alt="" width="350px" height="550px">
+        <img src="img/nitelife3.jpg" class="nitelife-pics" alt="" width="350px" height="550px">
+        <img src="img/nitelife4.jpg" class="nitelife-pics" alt="" width="350px" height="550px">
+      </section>
+      <br>
+      <section class="section-nitelife">
+        <img src="img/nitelife6.jpg" class="nitelife-pics" alt="" width="350px" height="550px">
+        <img src="img/nitelife7.jpg" class="nitelife-pics" alt="" width="350px" height="550px">
+        <img src="img/nitelife8.jpg" class="nitelife-pics" alt="" width="350px" height="550px">
+      </section>
+      <hr>
 
-      <div>
-        <img src="img/IMG-20220504-WA0004_2.jpg" alt="" width="350px" height="550px">
-        <img src="img/clothing store1.jpg" alt="" width="350px" height="550px">
-        <img src="img/grocery store2.jpg" alt="" width="350px" height="550px">
-      </div>
 
-      <div>
-        <img src="img/nitelife2.jpg" alt="" width="350px" height="550px">
-        <img src="img/nitelife3.jpg" alt="" width="350px" height="550px">
-        <img src="img/nitelife4.jpg" alt="" width="350px" height="550px">
-      </div>
 
-      <div>
-        <img src="img/nitelife6.jpg" alt="" width="350px" height="550px">
-        <img src="img/nitelife7.jpg" alt="" width="350px" height="550px">
-        <img src="img/nitelife8.jpg" alt="" width="350px" height="550px">
-      </div>
 
+      <script>
+        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+          dropdown[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+              dropdownContent.style.display = "none";
+            } else {
+              dropdownContent.style.display = "block";
+            }
+          });
+        }
+      </script>
     </div>
-    <hr>
-
-
-
-
-    <script>
-      /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
-      var dropdown = document.getElementsByClassName("dropdown-btn");
-      var i;
-
-      for (i = 0; i < dropdown.length; i++) {
-        dropdown[i].addEventListener("click", function () {
-          this.classList.toggle("active");
-          var dropdownContent = this.nextElementSibling;
-          if (dropdownContent.style.display === "block") {
-            dropdownContent.style.display = "none";
-          } else {
-            dropdownContent.style.display = "block";
-          }
-        });
-      }
-    </script>
-  </div>
 </body>
 
 </html>
