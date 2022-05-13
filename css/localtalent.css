@@ -221,6 +221,7 @@ h2 {
 
 .card {
   color: rgb(12, 12, 12);
+  border: 4px solid rgb(0, 0, 0);
 }
 
 .card-body {
@@ -277,4 +278,9 @@ section {
 .nitelife-pics {
   box-shadow: 4px 8px 10px rgb(0, 0, 0);
   border: 2px solid rgb(12, 12, 12);
+}
+
+/* Contact */
+.fs-3 {
+  background: rgb(255, 255, 255, 0.725);
 }
