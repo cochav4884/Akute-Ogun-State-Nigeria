@@ -190,9 +190,10 @@ h2 {
 .map {
   color: rgb(255, 255, 255, 0.725);
   text-align: center;
-  font-size:36px;
+  font-size: 36px;
 }
- /* Credits */
+
+/* Credits */
 .button {
   background-color: transparent;
   border: none;
@@ -264,7 +265,8 @@ section {
   padding: 15px;
   border: 4px solid rgb(12, 12, 12);
 }
- /* nitelife */
+
+/* nitelife */
 .section-nitelife {
   clear: left;
   color: rgb(255, 255, 255);
@@ -291,5 +293,32 @@ section {
 }
 
 .israel {
-background-color: cornflowerblue;
+  height: 250px;
+  background: rgb(128, 128, 128) url("../img/Think\ Like\ A\ Man.jpg") no-repeat center;
+  box-shadow: 4px 8px 10px rgb(255, 255, 255);
+}
+
+.aresal {
+  height: 250px;
+  background: rgb(128, 128, 128) url("../img/Think\ Like\ A\ Man.jpg") no-repeat center;
+  box-shadow: 4px 8px 10px rgb(255, 255, 255);
+
+}
+
+.richie {
+  height: 250px;
+  background: rgb(128, 128, 128) url("../img/Think\ Like\ A\ Man.jpg") no-repeat center;
+  box-shadow: 4px 8px 10px rgb(255, 255, 255);
+}
+
+.oriah {
+  height: 250px;
+  background: rgb(128, 128, 128) url("../img/Think\ Like\ A\ Man.jpg") no-repeat center;
+  box-shadow: 4px 8px 10px rgb(255, 255, 255);
+}
+ /* copy resident and paste below before changing to (resident name) */
+.resident {
+  height: 250px;
+  background: rgb(128, 128, 128) url("../img/Think\ Like\ A\ Man.jpg") no-repeat center;
+  box-shadow: 4px 8px 10px rgb(255, 255, 255);
 }
