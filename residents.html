@@ -481,4 +481,85 @@
                 </div>
               </div>
             </div>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item bg-dark">
+                <h2 class="accordion-header" id="headingSix">
+                  <!-- after placing name, set up background image in css -->
+                  <button class="(resident's name) accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                    <p><b class="text-dark fs-1">
+                        <h1><b class="resident">(Resident's Name)</b></h1>
+                    </p>
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse show" aria-labelledby="headingSix"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body bg-secondary">
+                    <P class="text-info fw-bold">
+                      Where do you like to hangout in town?
+                    </P>
+                    <p class="text-dark">...</p>
+                    <p class="text-info fw-bold">
+                      What is your favorite book or movie?
+                    </p>
+                    <p class="text-dark">...</p>
+                    <p class="text-info fw-bold">
+                      What is your biggest passion?
+                    </p>
+                    <p class="text-dark">...</p>
+                    <p class="text-info fw-bold">
+                      What is your favorite Nigerian dish?
+                    </p>
+                    <p class="text-dark"><a href="#"><img src="..." alt="" height="100px;" width="200px;"></a></p>
+                    <p class="text-info fw-bold">
+                      What is the toughest decision you have had to make that made the biggest impact in your life?
+                    </p>
+                    <p class="text-dark">...</p>
+                    <p class="text-info fw-bold">
+                      How do the people around you, inspire you?
+                    </p>
+                    <p class="text-dark">...</p>
+                    <p class="text-info fw-bold">
+                      What is the one thing you do that cheers up the people around you?
+                    </p>
+                    <p class="text-dark">...</p>
+                    <p class="text-info fw-bold">
+                      Tell me a time you witnessed something out of the ordinary (funny, sad, new, shocking)?
+                    </p>
+                    <p class="text-dark">...</p>
+                    <p class="text-info fw-bold">
+                      How do you feel about this survey?
+                    </p>
+                    <p class="text-dark">...</p>
+                    <p class="text-info">
+                      How has the Heartbeat of God (HBG) changed you?
+                    </p>
+                    <p class="text-dark">
+                      (Answer located on HBG Church Page)
+                  </div>
+                </div>
+              </div>
+  
+      </section>
 
+      <script>
+        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+
+        for (i = 0; i < dropdown.length; i++) {
+          dropdown[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+              dropdownContent.style.display = "none";
+            } else {
+              dropdownContent.style.display = "block";
+            }
+          });
+        }
+      </script>
+    </div>
+</body>
+
+</html>
