@@ -294,31 +294,25 @@ section {
 
 .israel {
   height: 250px;
-  background: rgb(128, 128, 128) url("../img/Think\ Like\ A\ Man.jpg") no-repeat center;
-  box-shadow: 4px 8px 10px rgb(255, 255, 255);
+  background: transparent url("../img/Think\ Like\ A\ Man.jpg") no-repeat center;
 }
 
 .aresal {
   height: 250px;
-  background: rgb(128, 128, 128) url("../img/Think\ Like\ A\ Man.jpg") no-repeat center;
-  box-shadow: 4px 8px 10px rgb(255, 255, 255);
-
+  background: transparent url("../img") no-repeat center;
 }
 
 .richie {
   height: 250px;
-  background: rgb(128, 128, 128) url("../img/Think\ Like\ A\ Man.jpg") no-repeat center;
-  box-shadow: 4px 8px 10px rgb(255, 255, 255);
+  background: transparent url("../img/Awakening\ book.jpg") no-repeat center;
 }
 
 .oriah {
   height: 250px;
-  background: rgb(128, 128, 128) url("../img/Think\ Like\ A\ Man.jpg") no-repeat center;
-  box-shadow: 4px 8px 10px rgb(255, 255, 255);
+  background: transparent url("../img/Queen\ movie.jpg") no-repeat center;
 }
  /* copy resident and paste below before changing to (resident name) */
 .resident {
   height: 250px;
-  background: rgb(128, 128, 128) url("../img/Think\ Like\ A\ Man.jpg") no-repeat center;
-  box-shadow: 4px 8px 10px rgb(255, 255, 255);
+  background: transparent url("../img") no-repeat center;
 }
