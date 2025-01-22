@@ -1,17 +1,34 @@
-function initMap() {
-    // Map options
-    const options = {
-      zoom: 12,
-      center: { lat: 6.655413354732172, lng: 3.195698556299673 }, // Akute, Ogun State
-    };
-  
-    // Create a new map and attach it to the div with id="map"
-    const map = new google.maps.Map(document.getElementById("map"), options);
+// Initialize the map
+var map = L.map('map').setView([6.670515, 3.413232], 13); // Coordinates for Akute, Ogun State
+
+// Add OpenStreetMap tile layer (free, open source)
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution:
+    '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+}).addTo(map);
+
+// Add a marker for the location
+L.marker([6.670515, 3.413232])
+  .addTo(map)
+  .bindPopup('<b>Akute, Ogun State</b><br>Located here.')
+  .openPopup();
+
+document.addEventListener('DOMContentLoaded', function () {
+  // Loop through all dropdown buttons to toggle between hiding and showing its dropdown content
+  var dropdown = document.getElementsByClassName('dropdown-btn');
+  var i;
+
+  for (i = 0; i < dropdown.length; i++) {
+    dropdown[i].addEventListener('click', function () {
+      this.classList.toggle('active');
+      var dropdownContent = this.nextElementSibling;
+
+      // Toggle the dropdown visibility
+      if (dropdownContent.style.display === 'block') {
+        dropdownContent.style.display = 'none';
+      } else {
+        dropdownContent.style.display = 'block';
+      }
+    });
   }
-  
-  // Load the Google Maps script dynamically
-  const script = document.createElement('script');
-  script.src = `https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=initMap`;
-  script.async = true;
-  document.body.appendChild(script);
-  
+});
