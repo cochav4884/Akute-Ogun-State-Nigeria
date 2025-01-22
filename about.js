@@ -13,6 +13,8 @@ L.marker([6.670515, 3.413232])
   .bindPopup('<b>Akute, Ogun State</b><br>Located here.')
   .openPopup();
 
+
+  // side navbar dropdown box
 document.addEventListener('DOMContentLoaded', function () {
   // Loop through all dropdown buttons to toggle between hiding and showing its dropdown content
   var dropdown = document.getElementsByClassName('dropdown-btn');
