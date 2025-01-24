@@ -98,6 +98,7 @@ body {
 .sidenav a:hover {
   background-color: #f1f1f1;
   color: black;
+  text-decoration: underline;
 }
 
 .sidenav.show {
@@ -130,7 +131,7 @@ body {
 }
 
 /* Footer inside the sidebar */
-.footer {
+footer {
   background-color: #444;
   color: #f1f1f1;
   padding: 20px;
@@ -138,16 +139,16 @@ body {
   margin-top: auto; /* Push the footer to the bottom of the sidebar */
 }
 
-.footer a {
+footer a {
   color: #f1f1f1;
   text-decoration: none;
 }
 
-.footer a:hover {
+footer a:hover {
   text-decoration: underline;
 }
 
-.footer::first-letter {
+footer::first-letter {
   font-size: 200%;
   color: rgb(128, 128, 128);
   font-style: italic;
@@ -208,6 +209,7 @@ body {
 h1 {
   background-color: #444;
   padding: 5px;
+  padding-left: 250px; /*Offset content by the width of the sidebar */
   color: #f1f1f1;
   font-family: serif;
 }
