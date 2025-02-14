@@ -66,11 +66,13 @@ body {
   margin: 50px;
 }
 
+/* Church Information */
 .move {
   text-align: center;
   color: #f1f1f1;
 }
 
+/* Interview Questions */
 #blockquote {
   text-align: center;
   margin: 0px;
