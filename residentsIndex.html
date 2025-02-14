@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The Heartbeat of God Church in Akute, Ogun State, Nigeria. A place to worship and grow spiritually."
+    />
+    <meta property="og:title" content="Heartbeat of God Church" />
+    <meta
+      property="og:description"
+      content="The Heartbeat of God Church is a community of believers in Akute, Ogun State, Nigeria."
+    />
+    <title>Church</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/residents.css" />
+
+    <!-- Leaflet CSS (for map if applicable) -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.1/dist/leaflet.css"
+    />
+    <!-- <link 
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.11.3/themes/hot-sneaks/jquery-ui.css" />
+     -->
+      <!-- Bootstrap 5 JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+      defer
+    ></script>
+
+    <script src="https://code.jquery.com/jquery-2.1.3.js"
+    ></script>
+
+    <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"
+    ></script>
+
+    <!-- controls for accordion -->
+    <script>
+        $(document).ready(function() {
+         $("#residentsAccordion").accordion({
+            collapsible: true
+        });
+    });
+    </script>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/16ef79e6fd.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+
+    <!-- Custom JS -->
+    <script src="church.js" defer></script>
+  </head>
+
+  <body>
+    <main class="main_content">
+      <div class="container">
+        <div class="sidenav">
+          <a href="homeIndex.html">Home</a>
+          <a href="aboutIndex.html">About</a>
+          <a href="churchIndex.html">HBG Church</a>
+          <a href="residentsIndex.html">Residents</a>
+          <a href="nitelifeIndex.html">Nite Life</a>
+          <a href="localtalentIndex.html">Local Talent</a>
+
+          <button
+            class="dropdown-btn"
+            type="button"
+            aria-label="Toggle dropdown menu"
+          >
+            Dropdown
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <a
+              href="https://ng.usembassy.gov/"
+              target="_blank"
+              rel="noopener"
+              aria-label="US Consulate in Nigeria"
+              >Consulate Nigeria</a
+            >
+            <a
+              href="https://www.usembassy.gov/"
+              target="_blank"
+              rel="noopener"
+              aria-label="US Embassy"
+              >US Embassy</a
+            >
+            <hr />
+            <a href="contact.html">Contact Us</a>
+          </div>
+
+          <!-- Footer inside the sidebar -->
+          <footer>
+            <p class="text-light">Footer</p>
+            <p class="text-light">&copy; 2022 | MFCP & ROC</p>
+            <p class="owners">Creator: <a href="cp.html">Corinne Padilla</a></p>
+            <p class="owners">
+              Photographer: <a href="roc.html">Richie Osborne</a>
+            </p>
+            <p class="owners">Pastor: <a href="pastor.html">Amos Onogwu</a></p>
+            <p><a href="pripol.html">Privacy Policy</a></p>
+            <p><a href="tofu.html">Terms of Use</a></p>
+            <p><a href="credits.html">Credits</a></p>
+            <img
+              class="fimg"
+              src="img/looking out bw2.jpg"
+              alt="Looking out from the church building"
+            />
+          </footer>
+        </div>
+        <div>
+            <header>
+              <h1 class="header">
+                *Residents*
+              </h1>
+            </header>
+
+              <div id="residentsAccordion" >
+                <h2>
+                    <a href="#" class="h2">Israel Alex Obiorah</a>
+                </h2>
+                <div> 
+                    <p class="text">
+                        Where do you like to hangout in town?
+                      </p>
+                      <p>
+                        "I do love to hangout at the gym where we have outdoor games."
+                      </p>
+                      <p class="text">
+                        What is your favorite book or movie?
+                      </p>
+                      <p>
+                        My favorite movie is "Think Like a Man" directed by Tim Story.
+                        <a href="https://www.vudu.com/content/movies/details/Think-Like-a-Man/324379" target="_blank"
+                         rel="noopener">
+                        <img src="img/Think Like A Man.jpg" alt="Think Like A Man" class="img" id="israelAlexObiorahMovie"></a>
+                      </p>
+                      <p class="text">
+                        What is your biggest passion?
+                      </p>
+                      <p>
+                        "My biggest passion is to explore the world."
+                      </p>
+                      <p class="text">
+                        What is your favorite Nigerian dish?
+                      </p>
+                      <p>
+                        "My favorite Nigerian dish is Vegetables and Yam Flour."
+                        <a href="https://www.radianthealthmag.com/healthy-eating/9-nigerian-swallows-every-palate/"
+                          target="_blank" rel="noopener">
+                          <img src="img/veggie & yam flour.jpg" alt="Vegetables and Yam Flour" class="img"
+                            id="israelAlexObiorah">
+                        </a>
+                      </p>
+                      <p class="text">
+                        What is the toughest decision you have had to make that made the biggest impact in your life?
+                      </p>
+                      <p>
+                        "The toughest decision I had to make was to school within the neighboring country outside of Nigeria,
+                        which is Benin Republic. It was tough because schools there are underrated due to their academic standard,
+                        but I can boldly say I achieved a lot more in terms of language, exposure, and other experiences. I am
+                        proud to be a BSC Holder in International Relations with a second-class upper division."
+                      </p>
+                      <p class="text">
+                        How do the people around you inspire you?
+                      </p>
+                      <p>
+                        "People close to me inspire me with revelational knowledge on how to discover my potential and share it
+                        with the world, helping others believe in themselves and achieve their goals."
+                      </p>
+                      <p class="text">
+                        What is the one thing you do that cheers up the people around you?
+                      </p>
+                      <p>
+                        "The one thing I do that cheers up the people around me is my lifestyle."
+                      </p>
+                      <p class="text">
+                        Tell me a time you witnessed something out of the ordinary (funny, sad, new, shocking)?
+                      </p>
+                      <p>
+                        "One sad experience I encountered was a heartbreaking moment when I watched a woman I knew on fire due to
+                        a gas leakage. People around tried to help, but unfortunately, she did not survive."
+                      </p>
+                      <p class="text">
+                        How do you feel about this survey?
+                      </p>
+                      <p>
+                        "I think this platform is very innovative, and I'm grateful to be a part of this journey."
+                      </p>
+                      <p class="text">
+                        How has the Heartbeat of God (HBG) changed you?
+                      </p>
+                      <p>
+                        (Answer located on HBG Church Page)
+                      </p>
+                </div>
+                <h2>
+                    <a href="#" class="h2">Aresal</a>
+                </h2>
+                <div> 
+                    <p class="text">
+                        Where do you like to hangout in town?
+                      </p>
+                      <p>
+                        "I love to hangout at the Rhapsody Club."
+                      </p>
+                      <p class="text">
+                        What is your favorite book or movie?
+                      </p>
+                      <p>
+                        ...
+                      </p>
+                      <p class="text">
+                        What is your biggest passion?
+                      </p>
+                      <p>
+                        ...
+                      </p>
+                      <p class="text">
+                        What is your favorite Nigerian dish?
+                      </p>
+                      <p>
+                        "My favorite Nigerian dish is Pounded Yam and Black Soup."
+                        <a
+                        href="https://goldpeakfoods.com/product/pounded-yam-and-black-soup-with-turkey/" target="_blank" rel="noopener">
+                        <img
+                          src="img/pounded yam and black soup.jpg" alt="Pounded Yam and Black Soup" height="100px;" width="200px;" class="img" id="aresal">
+                        </a>
+                      </p>
+                      <p class="text">
+                        What is the toughest decision you have had to make that made the biggest impact in your life?
+                      </p>
+                      <p>
+                        ...
+                      </p>
+                      <p class="text">
+                        How do the people around you inspire you?
+                      </p>
+                      <p>
+                       ...
+                      </p>
+                      <p class="text">
+                        What is the one thing you do that cheers up the people around you?
+                      </p>
+                      <p>
+                        ...
+                      </p>
+                      <p class="text">
+                        Tell me a time you witnessed something out of the ordinary (funny, sad, new, shocking)?
+                      </p>
+                      <p>
+                        ...
+                      </p>
+                      <p class="text">
+                        How do you feel about this survey?
+                      </p>
+                      <p>
+                       ...
+                      </p>
+                      <p class="text">
+                        How has the Heartbeat of God (HBG) changed you?
+                      </p>
+                      <p>
+                        (Answer located on HBG Church Page)
+                      </p>
+                </div>
+                <h2>
+                    <a href="#" class="h2"> Richie Osborne </a>
+                </h2>
+                <div> 
+                    <p class="text">
+                        Where do you like to hangout in town?
+                      </p>
+                      <p>
+                        "I'm more of an indoor guy...love to hangout in my house. If I step our, I love to hangout at FADOL a
+                        chilling spot nice and comfy."
+                      </p>
+                      <p class="text">
+                        What is your favorite book or movie?
+                      </p>
+                      <p>
+                        My favorite book is "Awaken the Giant Within" by Tony Robbins.
+                        <a href="https://www.audible.com/ep/title/?asin=B002V1OHGE&source_code=GO1GBSH09091690EI&device=d&cvosrc=ppc.google.awaken%20the%20giant%20within&cvo_campaign=250472289&cvo_crid=260134382328&Matchtype=e&ds_rl=1262685&ds_rl=1263561&ds_rl=1260658&gclid=Cj0KCQjw4PKTBhD8ARIsAHChzRJ0NaO-5rvJVO428L410R0FR-ynum0IcQf5Fmmjn3kpnQ6t4JwzZsYaAgonEALw_wcB&gclsrc=aw.ds"
+                        target="_blank" rel="noopener">
+                    <img src="img/Awakening book.jpg" alt="Awaken the Giant Within" class="img" id="richieOsborneBook"></a>
+                      </p>
+                      <p class="text">
+                        What is your biggest passion?
+                      </p>
+                      <p>
+                        "My biggest passion is music. I want to make good music heard around the world."
+                      </p>
+                      <p class="text">
+                        What is your favorite Nigerian dish?
+                      </p>
+                      <p>
+                        "My favorite Nigerian dish is Spaghetti." <a
+                        href="https://www.pulse.ng/lifestyle/food-travel/nigerian-recipes-how-to-make-nigerian-spaghetti-like-a-pro/1bkhhhr"
+                        target="_blank" rel="noopener"><img src="img/spaghetti.jpg" alt="spaghetti" height="100px;" width="200px;" class="img" id="richieOsborne"></a>
+                      </p>
+                      <p class="text">
+                        What is the toughest decision you have had to make that made the biggest impact in your life?
+                      </p>
+                      <p>
+                        "The toughest decison I had to make was serving God. Serving God in truth and with all my heart was a
+                        very big decision for me to make. We all say we serve God, but is it in truth? This big decision had
+                        made a huge impact in my life."
+                      </p>
+                      <p class="text">
+                        How do the people around you inspire you?
+                      </p>
+                      <p>
+                        "People around me inspire me through their lifestyle and words of encouragement, support, and so much
+                        love they show me. I so much appreciate that."
+                      </p>
+                      <p class="text">
+                        What is the one thing you do that cheers up the people around you?
+                      </p>
+                      <p>
+                        "The one thing I do that cheers people up around me is to sing and just be myself. I am a fun person
+                        to
+                        hangout with."
+                      </p>
+                      <p class="text">
+                        Tell me a time you witnessed something out of the ordinary (funny, sad, new, shocking)?
+                      </p>
+                      <p>
+                        "Okay, I was really little, but I could have sworn I saw a ghost. It was late night around 8:00pm,
+                        there
+                        about, I came out of my house wanting to go get a snack. Because it was dark outside, I was in a hurry
+                        to go get what I needed. Immediately, exiting my house I felt a presence and got chilled and
+                        goosebumps
+                        all over my body. When I looked to the left, it was really dark, but I can swear I saw a human figure.
+                        But this one was looking so old and haggard with a long staff. There was no face and I was just
+                        dumb-founded. I couldn't move for a few seconds. My heart was racing and I quickly went back inside my
+                        house. I could not even talk to anyone or explain what I had just seen. That was the most scary moment
+                        of my life."
+                      </p>
+                      <p class="text">
+                        How do you feel about this survey?
+                      </p>
+                      <p>
+                        "This survey is great because a lot of people want to be heard and I think this is a great medium for
+                        it."
+                      </p>
+                      <p class="text">
+                        How has the Heartbeat of God (HBG) changed you?
+                      </p>
+                      <p>
+                        (Answer located on HBG Church Page)
+                      </p>
+                </div>
+                <h2>
+                    <a href="#" class="h2"> Oriah Salome </a>
+                </h2>
+                <div> 
+                    <p class="text">
+                        Where do you like to hangout in town?
+                      </p>
+                      <p>
+                        "I do love to hangout at Sahara Chicken."
+                      </p>
+                      <p class="text">
+                        What is your favorite book or movie?
+                      </p>
+                      <p>
+                       My favorite movie is "Queen of the South."
+                        <a href="https://www.watchnow.com/show/queen-of-the-south?utm_source=Google&utm_medium=Search&t_source=64&utm_campaign=2566&gad_source=5&gclid=EAIaIQobChMIqIWu7tjCiwMVNdfCBB2UbCCDEAAYASAAEgJHx_D_BwE"
+                        target="_blank" rel="noopener">
+                    <img src="img/Queen movie.jpg" alt="Queen of the South" class="img" id="oriahSalomeMovie"></a>
+                      </p>
+                      <p class="text">
+                        What is your biggest passion?
+                      </p>
+                      <p>
+                        "My biggest passion is to own one of the biggest franchise stores in Nigeria."
+                      </p>
+                      <p class="text">
+                        What is your favorite Nigerian dish?
+                      </p>
+                      <p>
+                        "My favorite Nigerian dish is Spaghetti Bolognese." <a
+                        href="https://allure.vanguardngr.com/2021/11/how-to-make-nigerian-spaghetti-bolognese-in-10-easy-steps/"
+                        target="_blank" rel="noopener"><img src="img/oriah.jpg" alt="spaghetti bolognese" height="100px;" width="200px;" class="img" id="oriahSalome"></a>
+                      </p>
+                      <p class="text">
+                        What is the toughest decision you have had to make that made the biggest impact in your life?
+                      </p>
+                      <p>
+                        "The toughest decison I have had to make was to stop relying on whosoever for help and to do things on
+                        my own even though I had to struggle for it."
+                      </p>
+                      <p class="text">
+                        How do the people around you inspire you?
+                      </p>
+                      <p>
+                        "Well, am being inspired by the way people around me push harder despite the difficulties being faced
+                        in
+                        Nigeria. For instance, if a bad incident occurs, am being inspired by the way people joke around to
+                        eliminate bad feelings of being depressed."
+                      </p>
+                      <p class="text">
+                        What is the one thing you do that cheers up the people around you?
+                      </p>
+                      <p>
+                        "The one thing I do that cheers people up around me "is I give positive vibes even when it seems
+                        everything is crumbling."
+                      </p>
+                      <p class="text">
+                        Tell me a time you witnessed something out of the ordinary (funny, sad, new, shocking)?
+                      </p>
+                      <p>
+                        "Well, I had a shocking experience during the End SARS protest in my neighborhood. Instead of them
+                        being in a panic, they were drumming, dancing, eating, and drinking while blocking still blocking the road.
+                        I was just so shocked and confused by this behavior."
+                      </p>
+                      <p class="text">
+                        How do you feel about this survey?
+                      </p>
+                      <p>
+                        "Wow, I feel so excited sharing some of my experience here and I wish this survey could go around to
+                        every Nigerian."
+                      </p>
+                      <p class="text">
+                        How has the Heartbeat of God (HBG) changed you?
+                      </p>
+                      <p>
+                        (Answer located on HBG Church Page)
+                      </p>
+                </div>
+                <h2>
+                    <a href="#" class="h2"> Resident's Name </a>
+                </h2>
+                <div> 
+                    <p class="text">
+                        Where do you like to hangout in town?
+                      </p>
+                      <p>
+                        ...
+                      </p>
+                      <p class="text">
+                        What is your favorite book or movie?
+                      </p>
+                      <p>
+                       ...
+                      </p>
+                      <p class="text">
+                        What is your biggest passion?
+                      </p>
+                      <p>
+                        ...
+                      </p>
+                      <p class="text">
+                        What is your favorite Nigerian dish?
+                      </p>
+                      <p>
+                       ...
+                      </p>
+                      <p class="text">
+                        What is the toughest decision you have had to make that made the biggest impact in your life?
+                      </p>
+                      <p>
+                       ...
+                      </p>
+                      <p class="text">
+                        How do the people around you inspire you?
+                      </p>
+                      <p>
+                        ...
+                      </p>
+                      <p class="text">
+                        What is the one thing you do that cheers up the people around you?
+                      </p>
+                      <p>
+                        ...
+                      </p>
+                      <p class="text">
+                        Tell me a time you witnessed something out of the ordinary (funny, sad, new, shocking)?
+                      </p>
+                      <p>
+                       ...
+                      </p>
+                      <p class="text">
+                        How do you feel about this survey?
+                      </p>
+                      <p>
+                       ...
+                      </p>
+                      <p class="text">
+                        How has the Heartbeat of God (HBG) changed you?
+                      </p>
+                      <p>
+                        (Answer located on HBG Church Page)
+                      </p>
+                </div>
+            </div>     
+      </div>
+    </main>
+  </body>
+</html>
