@@ -62,7 +62,18 @@ body {
   padding: 20px;
   flex: 1;
   background-color: #f1f1f1;
-  border: 8px double rgb(128, 128, 128);
+  /* border: 8px double rgb(128, 128, 128); */
+  margin: 50px;
+}
+
+.move {
+  text-align: center;
+  color: #f1f1f1;
+}
+
+#blockquote {
+  text-align: center;
+  margin: 0px;
 }
 
 /* Footer inside the sidebar */
@@ -110,7 +121,7 @@ footer::first-letter {
   height: auto; /* Maintains the aspect ratio */
   display: block; /* Removes any unwanted space below the image */
   margin-top: 20px; /* Optional, to add spacing between the footer content */
-  border: 8px double rgb(128, 128, 128);
+  /* border: 8px double rgb(128, 128, 128); */
 }
 
 /* ROC, CP, PASTOR */
@@ -149,7 +160,7 @@ footer::first-letter {
     z-index: 100; /* Ensure the header is on top of the sidebar */
     position: relative; /* Ensure the header stays in place */
     color: #f1f1f1;
-    border: 8px double rgb(128, 128, 128);
+    /* border: 8px double rgb(128, 128, 128); */
 }
 
 h1,
@@ -157,7 +168,7 @@ h2 {
   background-color: #444;
   padding: 5px;
   color: #f1f1f1;
-  border: 8px double rgb(128, 128, 128);
+  /* border: 8px double rgb(128, 128, 128); */
 }
 
 h2 {
@@ -183,7 +194,7 @@ section {
     flex-wrap: wrap; /* Allow images to wrap if needed */
     justify-content: center; /* Center images horizontally */
     width: 100%; /* Ensure the container takes up the full width */
-    /*box-sizing: border-box; /* Include padding and border in width calculation */
+    box-sizing: border-box; /* Include padding and border in width calculation */
   color: rgb(255, 255, 255);
   font-style: italic;
   font-size: 24px;
